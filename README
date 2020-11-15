@@ -1,0 +1,24 @@
+************************************************
+This is a program for setup a reverse connection
+
+Author: Trismono C. Krisna
+Date  : 15 Nov. 2020
+Email : t.c.krisna@sron.nl 
+************************************************
+
+Content:
+- server.py
+- client.py
+
+System requirements:
+- python3 (3.0 or above)
+
+How to work:
+1. client.py must be located and run on target machine
+2. sever.py is located and run on the local machine or the server (real server is betteras the IP will not change - static)
+3. if both are running on a normal computer, please update the host name on the client.py according to the IP address of the "server" as it changes once the computer is restarted. Otherwise, it stays constant.
+
+Known limitation:
+This method is originally designed for a not so complicated purpose.
+
+
